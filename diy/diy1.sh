@@ -22,20 +22,20 @@
 
 # 软件中心istore
 #svn co https://github.com/linkease/istore/trunk/luci/luci-app-store package/luci-app-store
-svn co https://github.com/linkease/istore/trunk/luci package/istore
-svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
-rm -rf package/istore/.svn
-sed -i 's/luci-lib-ipkg/luci-base/g' package/istore/luci-app-store/Makefile
-sed -i 's/("iStore"), 31/("应用商店"), 61/g' package/istore/luci-app-store/luasrc/controller/store.lua
+# svn co https://github.com/linkease/istore/trunk/luci package/istore
+# svn co https://github.com/linkease/istore-ui/trunk/app-store-ui package/app-store-ui
+# rm -rf package/istore/.svn
+# sed -i 's/luci-lib-ipkg/luci-base/g' package/istore/luci-app-store/Makefile
+# sed -i 's/("iStore"), 31/("应用商店"), 61/g' package/istore/luci-app-store/luasrc/controller/store.lua
 
 # luci-theme-argon改版主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-rm -rf package/luci-theme-argon/README* package/luci-theme-argon/Screenshots/
-sed -i 's/luci-theme-argon-18.06/luci-theme-argon/g' package/luci-theme-argon/Makefile
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+# rm -rf package/luci-theme-argon/README* package/luci-theme-argon/Screenshots/
+# sed -i 's/luci-theme-argon-18.06/luci-theme-argon/g' package/luci-theme-argon/Makefile
 
 # luci-theme-opentopd主题
-git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
-rm -rf package/luci-theme-opentopd/README* package/luci-theme-opentopd/doc/
+# git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+# rm -rf package/luci-theme-opentopd/README* package/luci-theme-opentopd/doc/
 
 #新luci-app-passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
