@@ -15,10 +15,10 @@ sed -i 's/root:::0:99999:7:::/root:$1$SOP5eWTA$fJV8ty3QohO0chErhlxCm1:18775:0:99
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci-light/Makefile
 
 ## 删除软件
-rm -rf feeds/luci/applications/luci-app-adguardhome
-rm -rf feeds/packages/net/adguardhome
-rm -rf feeds/luci/applications/luci-app-mosdns
-rm -rf feeds/packages/net/mosdns
-rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/luci/applications/luci-app-smartdns
-rm -rf feeds/packages/net/smartdns
+# rm -rf feeds/luci/applications/luci-app-adguardhome
+# rm -rf feeds/packages/net/adguardhome
+# rm -rf feeds/luci/applications/luci-app-mosdns
+# rm -rf feeds/packages/net/mosdns
+# rm -rf feeds/luci/applications/luci-app-passwall
+# rm -rf feeds/luci/applications/luci-app-smartdns
+# rm -rf feeds/packages/net/smartdns
