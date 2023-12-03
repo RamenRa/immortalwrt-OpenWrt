@@ -10,8 +10,8 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-23.05
   CONFIG_FILE: 23.05/.config
-  DIY_P1_SH: 23.05/diy1.sh
-  DIY_P2_SH: 23.05/diy2.sh
+  # DIY_P1_SH: 23.05/diy1.sh
+  # DIY_P2_SH: 23.05/diy2.sh
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
 
